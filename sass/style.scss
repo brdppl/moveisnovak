@@ -442,53 +442,9 @@ slick {
 
 
 // Banner
-// .banner {
-//     img {
-//         width: 100%;
-//     }
-// }
-#teste {
-    height: 100%;
-
-    main {
-        height: 100%;
-    
-        #inicio {
-            height: 100%;
-    
-            .banner {
-                height: 100%;
-    
-                slick {
-                    height: 100%;
-    
-                    .slick-list {
-                        height: 100%;
-    
-                        .slick-track {
-                            height: 100%;
-    
-                            .slick-slide {
-                                height: 100%;
-    
-                                > div {
-                                    height: 100%;
-    
-                                    .item {
-                                        height: 100%;
-    
-                                        img {
-                                            height: 100%;
-                                            width: 100%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+.banner {
+    img {
+        width: 100%;
     }
 }
 

@@ -1,0 +1,36 @@
+<nav class="navbar fixed-top navbar-expand-md header" role="navigation">
+    <div class="container">
+        <a ng-click="vm.goToSection('.banner')">
+            <img src="img/logo.png">
+        </a>
+
+        <button class="navbar-toggler hamburger hamburger--spin" type="button"
+                ng-class="{'is-active': !vm.status.isCollapsed}"
+                ng-click="vm.status.isCollapsed = !vm.status.isCollapsed"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse mt-xs-15" uib-collapse="vm.status.isCollapsed">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" du-scrollspy="inicio" ng-click="vm.goToSection('.banner')">Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" du-scrollspy="sobre" ng-click="vm.goToSection('.sobre')">A Empresa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" du-scrollspy="trabalhos" ng-click="vm.goToSection('.nosso-trabalho')">Trabalhos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" du-scrollspy="servicos" ng-click="vm.goToSection('.servicos')">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" du-scrollspy="contato" ng-click="vm.goToSection('.contato')">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
