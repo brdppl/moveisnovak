@@ -1,0 +1,45 @@
+{
+    "status": true,
+    "lista": [
+        {
+            "idCategoria": 1,
+            "categoria": "Cozinhas"
+        },
+        {
+            "idCategoria": 2,
+            "categoria": "Dormitórios"
+        },
+        {
+            "idCategoria": 3,
+            "categoria": "Home"
+        },
+        {
+            "idCategoria": 4,
+            "categoria": "Closets"
+        },
+        {
+            "idCategoria": 5,
+            "categoria": "Lavanderias"
+        },
+        {
+            "idCategoria": 6,
+            "categoria": "Corporativos"
+        },
+        {
+            "idCategoria": 7,
+            "categoria": "Móveis"
+        },
+        {
+            "idCategoria": 8,
+            "categoria": "Banheiros"
+        },
+        {
+            "idCategoria": 9,
+            "categoria": "Estéticas"
+        },
+        {
+            "idCategoria": 10,
+            "categoria": "Antes e Depois"
+        }
+    ]
+}

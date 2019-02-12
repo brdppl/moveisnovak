@@ -1,0 +1,165 @@
+{
+    "status": true,
+    "lista": [
+        {
+            "idTrabalho": 1,
+            "nome": "Cozinha #1",
+            "categoria": "Cozinhas",
+            "idCategoria": 1,
+            "foto": "img/trabalhos/trabalho1.jpg",
+            "fotos": [
+                {
+                    "idFoto": 1,
+                    "foto": "img/trabalhos/trabalho1.jpg"
+                },
+                {
+                    "idFoto": 2,
+                    "foto": "img/trabalhos/trabalho1.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 2,
+            "nome": "Dormitório #3",
+            "categoria": "Dormitórios",
+            "idCategoria": 2,
+            "foto": "img/trabalhos/trabalho2.jpg",
+            "fotos": [
+                {
+                    "idFoto": 3,
+                    "foto": "img/trabalhos/trabalho2.jpg"
+                },
+                {
+                    "idFoto": 4,
+                    "foto": "img/trabalhos/trabalho2.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 3,
+            "nome": "Banheiro #1",
+            "categoria": "Banheiros",
+            "idCategoria": 8,
+            "foto": "img/trabalhos/trabalho3.jpg",
+            "fotos": [
+                {
+                    "idFoto": 5,
+                    "foto": "img/trabalhos/trabalho3.jpg"
+                },
+                {
+                    "idFoto": 6,
+                    "foto": "img/trabalhos/trabalho3.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 4,
+            "nome": "Móveis #1",
+            "categoria": "Móveis",
+            "idCategoria": 7,
+            "foto": "img/trabalhos/trabalho4.jpg",
+            "fotos": [
+                {
+                    "idFoto": 7,
+                    "foto": "img/trabalhos/trabalho4.jpg"
+                },
+                {
+                    "idFoto": 8,
+                    "foto": "img/trabalhos/trabalho4.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 5,
+            "nome": "Lavanderias #1",
+            "categoria": "Lavanderias",
+            "idCategoria": 5,
+            "foto": "img/trabalhos/trabalho5.jpg",
+            "fotos": [
+                {
+                    "idFoto": 9,
+                    "foto": "img/trabalhos/trabalho5.jpg"
+                },
+                {
+                    "idFoto": 10,
+                    "foto": "img/trabalhos/trabalho5.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 6,
+            "nome": "Closet #1",
+            "categoria": "Closets",
+            "idCategoria": 4,
+            "foto": "img/trabalhos/trabalho6.jpg",
+            "fotos": [
+                {
+                    "idFoto": 11,
+                    "foto": "img/trabalhos/trabalho6.jpg"
+                },
+                {
+                    "idFoto": 12,
+                    "foto": "img/trabalhos/trabalho6.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 7,
+            "nome": "Cozinha #6",
+            "categoria": "Cozinhas",
+            "idCategoria": 1,
+            "foto": "img/trabalhos/trabalho7.jpg",
+            "fotos": [
+                {
+                    "idFoto": 13,
+                    "foto": "img/trabalhos/trabalho7.jpg"
+                },
+                {
+                    "idFoto": 14,
+                    "foto": "img/trabalhos/trabalho7.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "idTrabalho": 8,
+            "nome": "Home #1",
+            "categoria": "Home",
+            "idCategoria": 3,
+            "foto": "img/trabalhos/trabalho8.jpg",
+            "fotos": [
+                {
+                    "idFoto": 15,
+                    "foto": "img/trabalhos/trabalho8.jpg"
+                },
+                {
+                    "idFoto": 16,
+                    "foto": "img/trabalhos/trabalho8.jpg"
+                }
+            ],
+            "materiais": "Lorem ipsum dolor sit amet",
+            "tecnologias": "Lorem ipsum dolor sit amet",
+            "acessorios": "Lorem ipsum dolor sit amet"
+        }
+    ]
+}
