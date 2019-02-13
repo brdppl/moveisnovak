@@ -23,6 +23,9 @@
         // Ir para seções do site
         vm.goToSection = function(id) {
             $('html, body').animate({scrollTop: $(id).offset().top - 60 }, 1250, 'easeInOutExpo');
+            vm.status = {
+                isCollapsed: true
+            }
         }
     })
 })()

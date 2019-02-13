@@ -6,6 +6,7 @@
     app.controller("homeCtrl", function($scope, $http, toaster, $timeout) {
         const vm = this
         const base = 'json/'
+        const mobileScreen = $(window).width() < 768;
 
         vm.collapsed = {
             map: true,
@@ -87,13 +88,21 @@
         vm.getDetails = function(val) {
             if(!vm.collapsed.details) {
                 vm.collapsed.details = true
-                $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top - 60 }, 800, 'easeInOutExpo')
+                if(mobileScreen) {
+                    $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top + 125 }, 800, 'easeInOutExpo')
+                } else {
+                    $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top + 100 }, 800, 'easeInOutExpo')
+                }
                 $timeout(function() {
                     vm.collapsed.details = false
                 }, 1000)
             } else {
                 vm.collapsed.details = false
-                $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top - 60 }, 1250, 'easeInOutExpo')
+                if(mobileScreen) {
+                    $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top + 125 }, 1250, 'easeInOutExpo')
+                } else {
+                    $('html, body').animate({scrollTop: $('.nosso-trabalho').offset().top + 100 }, 1250, 'easeInOutExpo')
+                }
             }
             vm.detalhes = val
             vm.loadDetalhesImgs = false

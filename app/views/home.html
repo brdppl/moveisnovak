@@ -4,7 +4,7 @@
 <div class="home">
     <section id="sobre" class="sobre content">
         <div class="container">
-            <div ng-repeat="x in vm.conteudo | filter:{'valSecao': 1} | limitTo: 1">
+            <div ng-repeat="x in vm.conteudo | filter:{'secao': 'Sobre'} | limitTo: 1">
                 <h1 class="text-center">{{:: x.titulo}}</h1>
                 <h4 class="text-center">{{:: x.subtitulo}}</h4>
                 <div ng-bind-html=":: x.conteudo" class="mt-50 mb-50"></div>
@@ -18,7 +18,7 @@
 
             <div class="vantagens mt-50">
                 <div class="row">
-                    <div class="col-md-4" ng-repeat="x in vm.conteudo | filter:{'valSecao': 2} | limitTo: 3">
+                    <div class="col-md-4" ng-repeat="x in vm.conteudo | filter:{'secao': 'Vantagens'} | limitTo: 3">
                         <h3>{{:: x.titulo}}</h3>
                         <div ng-bind-html=":: x.conteudo"></div>
                     </div>
@@ -29,7 +29,7 @@
 
     <section class="pagamento content">
         <div class="container">
-            <div ng-repeat="x in vm.conteudo | filter:{'valSecao': 3} | limitTo: 1">
+            <div ng-repeat="x in vm.conteudo | filter:{'secao': 'Formas de pagamento'} | limitTo: 1">
                 <h1 class="text-center">{{:: x.titulo}}</h1>
                 <h4 class="text-center">{{:: x.subtitulo}}</h4>
             </div>
@@ -67,7 +67,7 @@
 
     <section class="mdf content">
         <div class="container">
-            <div ng-repeat="x in vm.conteudo | filter:{'valSecao': 4} | limitTo: 1">
+            <div ng-repeat="x in vm.conteudo | filter:{'secao': 'MDF'} | limitTo: 1">
                 <h1 class="text-center">{{:: x.titulo}}</h1>
                 <h4 class="text-center">{{:: x.subtitulo}}</h4>
     
@@ -85,7 +85,7 @@
 
     <section id="trabalhos" class="nosso-trabalho">
         <div class="container">
-            <div ng-repeat="x in vm.conteudo | filter:{'valSecao': 5} | limitTo: 1">
+            <div ng-repeat="x in vm.conteudo | filter:{'secao': 'Nosso Trabalho'} | limitTo: 1">
                 <h1 class="text-center">{{:: x.titulo}}</h1>
                 <h4 class="text-center">{{:: x.subtitulo}}</h4>
 
@@ -164,13 +164,13 @@
 
     <section id="servicos" class="servicos content">
         <div class="container">
-            <div ng-repeat="x in vm.conteudo | filter:{'valSecao': 6} | limitTo: 1">
+            <div ng-repeat="x in vm.conteudo | filter:{'secao': 'Serviços'} | limitTo: 1">
                 <h1 class="text-center">{{:: x.titulo}}</h1>
                 <h4 class="text-center">{{:: x.subtitulo}}</h4>
             </div>
 
             <div class="row mt-50">
-                <div class="col-md-6 mb-50" ng-repeat="x in vm.conteudo | filter:{'valSecao': 7}">
+                <div class="col-md-6 mb-50" ng-repeat="x in vm.conteudo | filter:{'secao': 'Um serviço'}">
                     <div class="box">
                         <h3>{{:: x.titulo}}</h3>
                         <div ng-bind-html=":: x.conteudo"></div>
@@ -197,7 +197,7 @@
             <div class="box">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                        <form ng-submit="vm.enviar(vm.dados)">
+                        <form ng-submit="vm.enviar(vm.contato)">
                             <h1 class="text-center">Fale com a nossa equipe</h1>
 
                             <div class="row mt-50">
@@ -254,15 +254,15 @@
                                     <div class="row">
                                         <div class="col-12 mb-15">
                                             <label>Seu Nome</label>
-                                            <input type="text" class="form-control" ng-model="vm.dados.nome" required>
+                                            <input type="text" class="form-control" ng-model="vm.contato.nome" required>
                                         </div>
                                         <div class="col-12 mb-15">
                                             <label>Seu Telefone</label>
-                                            <input type="text" class="form-control" ng-model="vm.dados.telefone" ui-mask="(99) 9?9999-9999">
+                                            <input type="text" class="form-control" ng-model="vm.contato.telefone" ui-mask="(99) 9?9999-9999">
                                         </div>
                                         <div class="col-12 mb-15">
                                             <label>Seu E-mail</label>
-                                            <input type="email" class="form-control" ng-model="vm.dados.email" required>
+                                            <input type="email" class="form-control" ng-model="vm.contato.email" required>
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +271,7 @@
                             <div class="row mb-15 mb-xs-50">
                                 <div class="col-12 mb-15">
                                     <label>Sua mensagem</label>
-                                    <textarea class="form-control" rows="6" ng-model="vm.dados.mensagem" required></textarea>
+                                    <textarea class="form-control" rows="6" ng-model="vm.contato.mensagem" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-principal btn-block-xs float-right">Enviar mensagem</button>

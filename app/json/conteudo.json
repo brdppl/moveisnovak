@@ -2,7 +2,6 @@
     "status": true,
     "lista": [
         {
-            "valSecao": 1,
             "secao": "Sobre",
             "titulo": "A Empresa",
             "subtitulo": "Se você busca por móveis sob medida, você conheceu a empresa certa, conheça nossas ideias.",
@@ -17,7 +16,6 @@
             ]
         },
         {
-            "valSecao": 2,
             "secao": "Vantagens",
             "titulo": "Orçamento grátis",
             "subtitulo": "",
@@ -25,7 +23,6 @@
             "imagens": []
         },
         {
-            "valSecao": 2,
             "secao": "Vantagens",
             "titulo": "3 anos de garantia",
             "subtitulo": "",
@@ -33,7 +30,6 @@
             "imagens": []
         },
         {
-            "valSecao": 2,
             "secao": "Vantagens",
             "titulo": "FSC Manejo Florestal",
             "subtitulo": "",
@@ -41,7 +37,6 @@
             "imagens": []
         },
         {
-            "valSecao": 3,
             "secao": "Formas de pagamento",
             "titulo": "Formas de pagamento",
             "subtitulo": "Conheça as nossas formas de pagamento",
@@ -49,7 +44,6 @@
             "imagens": []
         },
         {
-            "valSecao": 4,
             "secao": "MDF",
             "titulo": "O MDF",
             "subtitulo": "Se você ainda não conhece o MDF, conheça melhor.",
@@ -57,7 +51,6 @@
             "imagens": []
         },
         {
-            "valSecao": 5,
             "secao": "Nosso Trabalho",
             "titulo": "Nosso Trabalho",
             "subtitulo": "Apresentamos nossos trabalhos de móveis separados por categoria",
@@ -65,7 +58,6 @@
             "imagens": []
         },
         {
-            "valSecao": 6,
             "secao": "Serviços",
             "titulo": "Serviços",
             "subtitulo": "Confira mais detalhes de todos os serviços que oferecemos",
@@ -73,32 +65,28 @@
             "imagens": []
         },
         {
-            "valSecao": 7,
-            "secao": "Serviço",
+            "secao": "Um serviço",
             "titulo": "Móveis sob medida",
             "subtitulo": "",
             "conteudo": "<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>",
             "imagens": []
         },
         {
-            "valSecao": 7,
-            "secao": "Serviço",
+            "secao": "Um serviço",
             "titulo": "Móveis sob medida",
             "subtitulo": "",
             "conteudo": "<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>",
             "imagens": []
         },
         {
-            "valSecao": 7,
-            "secao": "Serviço",
+            "secao": "Um serviço",
             "titulo": "Móveis sob medida",
             "subtitulo": "",
             "conteudo": "<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>",
             "imagens": []
         },
         {
-            "valSecao": 7,
-            "secao": "Serviço",
+            "secao": "Um serviço",
             "titulo": "Móveis sob medida",
             "subtitulo": "",
             "conteudo": "<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>",
