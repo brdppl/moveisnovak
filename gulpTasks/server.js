@@ -8,7 +8,7 @@ gulp.task('watch', () => {
     watch('app/sass/style.scss', () => gulp.start(['sassdev', 'sassprod']))
     watch('app/sass/responsive.scss', () => gulp.start(['responsivedev', 'responsiveprod']))
     watch('app/**/*.js', () => gulp.start('app.js'))
-    watch('assets/**/*.*', () => gulp.start('app.assets'))
+    watch('app/**/*.*', () => gulp.start('app.assets'))
 })
 
 gulp.task('server', ['watch'], () => {
